@@ -35,11 +35,11 @@ So we get a loop in every third item here. If we group those items in their own 
 
 117 + 150x0, 117 + 150x1, 117 + 150x2... for third group
 
-This goes unitil Numbers between 990 and 999, which is element of the first group.
+This goes until Numbers between 990 and 999, which is element of the first group.
 
 So we reduced the loop size from 1000 to 100, we gained 10 times the speed! And we got rid of all the if statements, thats also a plus.
 
-We have to divide 100 for those 3 groups and we can start summing.
+We have to divide our loop size for those 3 groups and we can start summing.
 
 
 In our case, the problem started and ended with the first group so first group will get one more size in loop.
