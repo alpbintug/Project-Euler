@@ -29,11 +29,11 @@ Numbers between 50 and 59 -> 20+30, 21+30, 24+30, 25+30, 27+30 => Sum 117 + 30 *
 
 So we get a loop in every third item here. If we group those items in their own group we get;
 
-23 + 150*0, 23 + 150*1 , 23 + 150*2... for first group
+23 + 150x0, 23 + 150x1 , 23 + 150x2... for first group
 
-55 + 120*0, 55 + 120*1, 55 + 120*2... for second group
+55 + 120x0, 55 + 120x1, 55 + 120x2... for second group
 
-117 + 150*0, 117 + 150*1, 117 + 150*2... for third group
+117 + 150x0, 117 + 150x1, 117 + 150x2... for third group
 
 This goes unitil Numbers between 990 and 999, which is element of the first group.
 
