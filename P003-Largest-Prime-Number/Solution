@@ -1,0 +1,20 @@
+#include <math.h>
+#include <stdio.h>
+
+int main()
+{
+    unsigned long long number = 600851475143LLU;
+    int i;
+
+    for(i = 2; i <= number; i++){
+        if(number%i==0)
+        {
+            number/=i;
+            i--;
+        }
+    }
+
+
+    printf("Largest prime factor of your number is: %d",i);
+    return 0;
+}
